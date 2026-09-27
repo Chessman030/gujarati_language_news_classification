@@ -1,0 +1,23 @@
+# Virtual Environments
+venv/
+env/
+.env
+
+# Datasets (Do not upload data to GitHub!)
+*.csv
+train.csv
+valid.csv
+test.csv
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+
+# Note: We are explicitly NOT ignoring .joblib files
+# because we want to upload gujarati_models.joblib to GitHub!
